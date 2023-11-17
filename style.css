@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+title{
+    <link rel="icon" href="logo.jpg">
+}
+
+nav{
+    background: rgba(72, 3, 72, 0.267);
+    color: rgb(63, 4, 29);
+    padding: 20px;
+}
+
+li,h1,ul{
+    display: inline;
+}
+
+ul{
+    margin-left: 60%;
+}
+
+li{
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover{
+    color: purple;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
+
+.box{
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: rgba(72, 3, 72, 0.267);
+    color: rgb(63, 4, 29);
+}
+
+.products{
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(71, 31, 79, 0.895);
+}
+
+.contact{
+    background: rgba(202, 133, 202, 0.944);
+    color: rgb(103, 26, 103);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
